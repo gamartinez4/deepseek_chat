@@ -1,0 +1,6 @@
+Producto A
+
+Color: rojo
+Tamaño: mediano
+Material: algodón
+Descripción: Camiseta de alta calidad ideal para uso diario. Diseñada para ofrecer comodidad y durabilidad. 
