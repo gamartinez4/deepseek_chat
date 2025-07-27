@@ -93,7 +93,7 @@ curl -X POST http://localhost:8000/query \
 Run the test suite:
 
 ```bash
-pytest
+python -m pytest -q
 ```
 
 ## Project Structure
