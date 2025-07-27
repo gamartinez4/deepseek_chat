@@ -1,6 +1,6 @@
-Producto C
+Product C
 
-Color: verde
-Tamaño: pequeño
-Material: cuero sintético
-Descripción: Pequeña mochila urbana con compartimentos internos para organizar tus objetos personales. 
+Color: green
+Size: small
+Material: synthetic leather
+Description: Small urban backpack with internal compartments to organize your personal items. 

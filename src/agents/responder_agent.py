@@ -8,18 +8,18 @@ from typing import Any, Dict, List
 from ..config import settings
 
 _SYSTEM_PROMPT = (
-    "Eres un asistente experto en información de productos. "
-    "Responde utilizando únicamente la información proporcionada en el contexto. "
-    "Si no encuentras la respuesta en el contexto, responde con \"Lo siento, no encontré información sobre eso.\""
+    "You are an expert assistant on product information. "
+    "Respond using only the information provided in the context. "
+    "If you can't find the answer in the context, respond with \"I'm sorry, I couldn't find information about that.\""
 )
 
 
 def _build_prompt(context: List[str], question: str) -> str:
     joined_context = "\n---\n".join(context)
     return (
-        f"Contexto relevante:\n{joined_context}\n\n"
-        f"Pregunta del usuario: {question}\n"
-        f"Respuesta del asistente:"
+        f"Relevant context:\n{joined_context}\n\n"
+        f"User question: {question}\n"
+        f"Assistant's response:"
     )
 
 

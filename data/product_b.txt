@@ -1,6 +1,6 @@
-Producto B
+Product B
 
-Color: azul
-Tamaño: grande
-Material: poliéster
-Descripción: Chaqueta impermeable diseñada para mantenerte seco en días lluviosos. Cuenta con bolsillos con cremallera y capucha ajustable. 
+Color: blue
+Size: large
+Material: polyester
+Description: Waterproof jacket designed to keep you dry on rainy days. It has zippered pockets and an adjustable hood. 

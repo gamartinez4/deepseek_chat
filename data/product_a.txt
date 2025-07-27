@@ -1,6 +1,6 @@
-Producto A
+Product A
 
-Color: rojo
-Tamaño: mediano
-Material: algodón
-Descripción: Camiseta de alta calidad ideal para uso diario. Diseñada para ofrecer comodidad y durabilidad. 
+Color: red
+Size: medium
+Material: cotton
+Description: High-quality t-shirt ideal for daily use. Designed to offer comfort and durability. 
