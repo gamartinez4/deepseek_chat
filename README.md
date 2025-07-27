@@ -1,3 +1,8 @@
+
+![Grabación 2025-07-27 100543](https://github.com/user-attachments/assets/9d26a382-8409-4491-8f5b-6eab6a299de1)
+
+
+
 # Product Query RAG Bot
 
 A RAG (Retrieval Augmented Generation) system that answers queries about products using a vector store and LLM.
