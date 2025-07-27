@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src
+    environment:
+      - PYTHONPATH=/app
+      - ENDPOINT=${ENDPOINT:-https://models.github.ai/inference}
+      - MODEL_NAME=${MODEL_NAME:-deepseek/DeepSeek-V3-0324}
+      - TOP_K=${TOP_K:-3}
+      - EMBEDDING_MODEL_NAME=${EMBEDDING_MODEL_NAME:-sentence-transformers/all-MiniLM-L6-v2}
+      - INDEX_PATH=${INDEX_PATH:-store/faiss_index}
+      - REQUEST_TIMEOUT=${REQUEST_TIMEOUT:-30}
+    command: ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"] 

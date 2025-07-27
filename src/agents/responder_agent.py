@@ -26,6 +26,8 @@ def _build_prompt(context: List[str], question: str) -> str:
 @dataclass
 class ResponderAgent:
     """Callable node compatible with LangGraph that adds 'answer' to the state."""
+    
+    token: str
 
     def __call__(self, state: Dict[str, Any]) -> Dict[str, Any]:
         context: List[str] = state.get("context", [])
@@ -44,7 +46,7 @@ class ResponderAgent:
         }
 
         headers = {
-            "Authorization": f"{'PONER CREDENCIALES AQUÍ'}",
+            "Authorization": f"Bearer {self.token}",
             "Content-Type": "application/json",
         }
 

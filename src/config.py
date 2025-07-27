@@ -3,7 +3,6 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-   
     ENDPOINT: str = "https://models.github.ai/inference"
     MODEL_NAME: str = "deepseek/DeepSeek-V3-0324"
     TOP_K: int = 3
